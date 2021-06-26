@@ -1,0 +1,29 @@
+.singleP:hover .overly {
+	transform: translateY(0%) !important;
+}
+
+.singleP:hover .PImg {
+	transform: scale(1.1);
+}
+
+.show {
+	display: block !important;
+}
+
+.hide {
+	display: none;
+}
+
+@media only screen and (max-width: 768px) {
+	.bModal {
+		padding: 4px 8px !important;
+		font-size: 12px !important;
+	}
+	.listTools,
+	.desc {
+		font-size: 12px !important;
+	}
+	.Modaltitle {
+		font-size: 17px !important;
+	}
+}

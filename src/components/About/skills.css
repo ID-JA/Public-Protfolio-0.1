@@ -1,0 +1,57 @@
+.Tech:hover {
+	animation: rotate 0.7s ease-in-out both;
+}
+
+.TechSvg:hover {
+	animation: rotate 0.7s ease-in-out both;
+}
+
+@keyframes rotate {
+	0% {
+		transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+	25% {
+		transform: rotate(3deg) translate3d(0, 0, 0);
+	}
+	50% {
+		transform: rotate(-3deg) translate3d(0, 0, 0);
+	}
+	75% {
+		transform: rotate(1deg) translate3d(0, 0, 0);
+	}
+	100% {
+		transform: rotate(0deg) translate3d(0, 0, 0);
+	}
+}
+
+.next-slide {
+	transform: translateX(100%);
+}
+.last-slide {
+	transform: translateX(-100%);
+}
+
+.active-slide {
+	transform: translateX(0%);
+	opacity: 1 !important;
+}
+/* 
+.reactSvg {
+	animation: rotateReact 5s linear infinite;
+}
+
+@keyframes rotateReact {
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.aspSvg {
+	animation: rotateAsp 5s linear infinite;
+}
+
+@keyframes rotateAsp {
+	100% {
+		transform: rotateX(360deg);
+	}
+} */

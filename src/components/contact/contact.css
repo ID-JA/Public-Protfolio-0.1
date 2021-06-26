@@ -1,0 +1,8 @@
+.Okbutton button {
+	background: #9c27b0;
+	color: #fff;
+}
+
+.Okbutton button:hover {
+	background: #f06292 !important;
+}
