@@ -1,5 +1,5 @@
 # Portfolio
-
+this is a simple proftfolio website using Reactjs 
 ### `npm init`
 
 Runs the app in the development mode.\
